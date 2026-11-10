@@ -1,0 +1,7 @@
+# dsh-output-modes — bundle layer
+#
+# The bundle owns one row. `name` is the package that declares `dsh.bundle` in
+# its package.json, so the profile loader resolves this checkout by name.
+- insert:
+    - id: output-modes
+      name: dsh-output-modes
